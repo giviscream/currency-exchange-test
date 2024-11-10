@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LTProjectResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <WatchScripts>
+        <WatchScript>
+            <Script>emailLoginPass.Login</Script>
+        </WatchScript>
+    </WatchScripts>
+    <Ignored />
+    <Breakpoints>
+        <KeyValueItem>
+            <Key>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\Report\GetRowsCountSentence.ltw</Key>
+            <Value>07180d3a-8b91-4387-b398-bcb7928ab7a4</Value>
+        </KeyValueItem>
+    </Breakpoints>
+    <BreakpointLines />
+    <Git />
+    <LastOpenedItems>
+        <string>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\Main.ltw</string>
+        <string>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\CurrencyLoader\GetCurrencyPeriodRate.ltw</string>
+        <string>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\CurrencyLoader\OpenCurencyPage.ltw</string>
+        <string>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\Framework\Process.ltw</string>
+        <string>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\Report\GetRowsCountSentence.ltw</string>
+        <string>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\Framework\SendMessage.ltw</string>
+        <string>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\Report\SendReport.ltw</string>
+        <string>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\CurrencyLoader\InitSourceTable.ltw</string>
+        <string>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\Framework\KillAllProcesses.ltw</string>
+    </LastOpenedItems>
+</LTProjectResources>
