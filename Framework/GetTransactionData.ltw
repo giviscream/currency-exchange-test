@@ -495,15 +495,6 @@ If there are multiple transactions, use the argument in_TransactionNumber as an 
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
-                        <Name>ComponentName</Name>
-                        <Value xsi:type="xsd:string">Retry Get transaction item</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>Annotation</Name>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
                         <Name>Variables</Name>
                         <Value xsi:type="ArrayOfScriptVariable" />
                     </SerializationItem>
@@ -522,11 +513,20 @@ If there are multiple transactions, use the argument in_TransactionNumber as an 
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
+                        <Name>ComponentName</Name>
+                        <Value xsi:type="xsd:string">Retry Get transaction item</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
                         <Name>WaitBefore</Name>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>WaitAfter</Name>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>Annotation</Name>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -1048,6 +1048,14 @@ If there are multiple transactions, use the argument in_TransactionNumber as an 
                                             </SerializationItem>
                                             <SerializationItem>
                                                 <IsListValue>false</IsListValue>
+                                                <Name>WaitBefore</Name>
+                                            </SerializationItem>
+                                            <SerializationItem>
+                                                <IsListValue>false</IsListValue>
+                                                <Name>WaitAfter</Name>
+                                            </SerializationItem>
+                                            <SerializationItem>
+                                                <IsListValue>false</IsListValue>
                                                 <Name>ComponentID</Name>
                                                 <Value xmlns:q12="http://microsoft.com/wsdl/types/" xsi:type="q12:guid">122225fa-1611-42b8-91e7-cfed3eb97b43</Value>
                                             </SerializationItem>
@@ -1090,14 +1098,6 @@ If there are multiple transactions, use the argument in_TransactionNumber as an 
                                                 <IsListValue>false</IsListValue>
                                                 <Name>ShowAnnotation</Name>
                                                 <Value xsi:type="xsd:boolean">false</Value>
-                                            </SerializationItem>
-                                            <SerializationItem>
-                                                <IsListValue>false</IsListValue>
-                                                <Name>WaitBefore</Name>
-                                            </SerializationItem>
-                                            <SerializationItem>
-                                                <IsListValue>false</IsListValue>
-                                                <Name>WaitAfter</Name>
                                             </SerializationItem>
                                         </Properties>
                                         <IsBreakpoint>false</IsBreakpoint>

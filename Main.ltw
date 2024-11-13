@@ -1034,12 +1034,12 @@ In the case of a system exception, the transaction can be automatically retried.
                 <SerializationItem>
                     <IsListValue>false</IsListValue>
                     <Name>X</Name>
-                    <Value xsi:type="xsd:double">227.07</Value>
+                    <Value xsi:type="xsd:double">377.07</Value>
                 </SerializationItem>
                 <SerializationItem>
                     <IsListValue>false</IsListValue>
                     <Name>Y</Name>
-                    <Value xsi:type="xsd:double">441</Value>
+                    <Value xsi:type="xsd:double">435</Value>
                 </SerializationItem>
                 <SerializationItem>
                     <IsListValue>false</IsListValue>
@@ -2132,16 +2132,9 @@ In the case of a system exception, the transaction can be automatically retried.
                                                         <ScriptVariable>
                                                             <Name>in_TransactionItem</Name>
                                                             <Group />
-                                                            <DefaultValue xsi:type="xsd:string">TransactionItem</DefaultValue>
-                                                            <DataTypeString>LTools.Enterprise.Model.QueueItem</DataTypeString>
+                                                            <DefaultValue xsi:type="xsd:string">null</DefaultValue>
+                                                            <DataTypeString>System.Data.DataRow</DataTypeString>
                                                             <Direction>IN</Direction>
-                                                        </ScriptVariable>
-                                                        <ScriptVariable>
-                                                            <Name>io_RetryNumber</Name>
-                                                            <Group />
-                                                            <DefaultValue xsi:type="xsd:string">RetryNumber</DefaultValue>
-                                                            <DataTypeString>System.Int32</DataTypeString>
-                                                            <Direction>IN_OUT</Direction>
                                                         </ScriptVariable>
                                                         <ScriptVariable>
                                                             <Name>io_TransactionNumber</Name>
@@ -2573,7 +2566,7 @@ In the case of a system exception, the transaction can be automatically retried.
                                                         <ScriptVariable>
                                                             <Name>in_TransactionItem</Name>
                                                             <Group />
-                                                            <DefaultValue xsi:type="xsd:string">TransactionItem</DefaultValue>
+                                                            <DefaultValue xsi:type="xsd:string">null</DefaultValue>
                                                             <DataTypeString>System.Data.DataRow</DataTypeString>
                                                             <Direction>IN</Direction>
                                                         </ScriptVariable>
@@ -2856,6 +2849,15 @@ In the case of a system exception, the transaction can be automatically retried.
                     <Properties>
                         <SerializationItem>
                             <IsListValue>false</IsListValue>
+                            <Name>ComponentName</Name>
+                            <Value xsi:type="xsd:string">Check Stop Signal</Value>
+                        </SerializationItem>
+                        <SerializationItem>
+                            <IsListValue>false</IsListValue>
+                            <Name>Annotation</Name>
+                        </SerializationItem>
+                        <SerializationItem>
+                            <IsListValue>false</IsListValue>
                             <Name>Text</Name>
                             <Value xsi:type="xsd:string">ShouldStop</Value>
                         </SerializationItem>
@@ -2871,20 +2873,11 @@ In the case of a system exception, the transaction can be automatically retried.
                         </SerializationItem>
                         <SerializationItem>
                             <IsListValue>false</IsListValue>
-                            <Name>ComponentName</Name>
-                            <Value xsi:type="xsd:string">Check Stop Signal</Value>
-                        </SerializationItem>
-                        <SerializationItem>
-                            <IsListValue>false</IsListValue>
                             <Name>WaitBefore</Name>
                         </SerializationItem>
                         <SerializationItem>
                             <IsListValue>false</IsListValue>
                             <Name>WaitAfter</Name>
-                        </SerializationItem>
-                        <SerializationItem>
-                            <IsListValue>false</IsListValue>
-                            <Name>Annotation</Name>
                         </SerializationItem>
                         <SerializationItem>
                             <IsListValue>false</IsListValue>
@@ -5175,15 +5168,15 @@ Since the applications are assumed to be already closed, CloseAllApplications is
                             <IsListValue>false</IsListValue>
                             <Name>PointsList</Name>
                             <Value xsi:type="Point">
-                                <X>491</X>
-                                <Y>529.83</Y>
+                                <X>641</X>
+                                <Y>523.83</Y>
                             </Value>
                         </SerializationItem>
                         <SerializationItem>
                             <IsListValue>false</IsListValue>
                             <Name>PointsList</Name>
                             <Value xsi:type="Point">
-                                <X>491</X>
+                                <X>641</X>
                                 <Y>-1</Y>
                             </Value>
                         </SerializationItem>
@@ -5337,15 +5330,15 @@ The process should simply go to next transaction.</Value>
                             <IsListValue>false</IsListValue>
                             <Name>PointsList</Name>
                             <Value xsi:type="Point">
-                                <X>491</X>
-                                <Y>529.83</Y>
+                                <X>641</X>
+                                <Y>523.83</Y>
                             </Value>
                         </SerializationItem>
                         <SerializationItem>
                             <IsListValue>false</IsListValue>
                             <Name>PointsList</Name>
                             <Value xsi:type="Point">
-                                <X>491</X>
+                                <X>641</X>
                                 <Y>300.63833333333332</Y>
                             </Value>
                         </SerializationItem>
@@ -5490,15 +5483,15 @@ The process should simply go to next transaction.</Value>
                             <IsListValue>false</IsListValue>
                             <Name>PointsList</Name>
                             <Value xsi:type="Point">
-                                <X>491</X>
-                                <Y>529.83</Y>
+                                <X>641</X>
+                                <Y>523.83</Y>
                             </Value>
                         </SerializationItem>
                         <SerializationItem>
                             <IsListValue>false</IsListValue>
                             <Name>PointsList</Name>
                             <Value xsi:type="Point">
-                                <X>491</X>
+                                <X>641</X>
                                 <Y>300.63833333333332</Y>
                             </Value>
                         </SerializationItem>
@@ -5946,15 +5939,15 @@ The process should simply go to next transaction.</Value>
                             <Name>PointsList</Name>
                             <Value xsi:type="Point">
                                 <X>352.07</X>
-                                <Y>424</Y>
+                                <Y>418</Y>
                             </Value>
                         </SerializationItem>
                         <SerializationItem>
                             <IsListValue>false</IsListValue>
                             <Name>PointsList</Name>
                             <Value xsi:type="Point">
-                                <X>350.37166666666667</X>
-                                <Y>424</Y>
+                                <X>500.37166666666667</X>
+                                <Y>418</Y>
                             </Value>
                         </SerializationItem>
                     </ListValue>

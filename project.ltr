@@ -6,23 +6,17 @@
         </WatchScript>
     </WatchScripts>
     <Ignored />
-    <Breakpoints>
-        <KeyValueItem>
-            <Key>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\Report\GetRowsCountSentence.ltw</Key>
-            <Value>07180d3a-8b91-4387-b398-bcb7928ab7a4</Value>
-        </KeyValueItem>
-    </Breakpoints>
+    <Breakpoints />
     <BreakpointLines />
     <Git />
     <LastOpenedItems>
         <string>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\Main.ltw</string>
-        <string>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\CurrencyLoader\GetCurrencyPeriodRate.ltw</string>
-        <string>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\CurrencyLoader\OpenCurencyPage.ltw</string>
+        <string>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\Framework\GetTransactionData.ltw</string>
         <string>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\Framework\Process.ltw</string>
-        <string>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\Report\GetRowsCountSentence.ltw</string>
-        <string>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\Framework\SendMessage.ltw</string>
+        <string>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\CurrencyLoader\GetCurrencyPeriodRate.ltw</string>
+        <string>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\Framework\SetTransactionStatus.ltw</string>
         <string>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\Report\SendReport.ltw</string>
-        <string>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\CurrencyLoader\InitSourceTable.ltw</string>
-        <string>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\Framework\KillAllProcesses.ltw</string>
+        <string>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\Report\GetRowsCountSentence.ltw</string>
+        <string>C:\Users\givis\OneDrive\Документы\Primo\CurrenciesRateLoader\Framework\CloseAllApplications.ltw</string>
     </LastOpenedItems>
 </LTProjectResources>

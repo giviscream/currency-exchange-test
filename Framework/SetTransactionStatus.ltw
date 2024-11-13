@@ -107,10 +107,6 @@
                 </SerializationItem>
                 <SerializationItem>
                     <IsListValue>false</IsListValue>
-                    <Name>Annotation</Name>
-                </SerializationItem>
-                <SerializationItem>
-                    <IsListValue>false</IsListValue>
                     <Name>Equation</Name>
                     <Value xsi:type="xsd:string">in_BusinessException == null &amp;&amp; in_SystemException == null</Value>
                 </SerializationItem>
@@ -135,6 +131,10 @@
                 <SerializationItem>
                     <IsListValue>false</IsListValue>
                     <Name>WaitAfter</Name>
+                </SerializationItem>
+                <SerializationItem>
+                    <IsListValue>false</IsListValue>
+                    <Name>Annotation</Name>
                 </SerializationItem>
                 <SerializationItem>
                     <IsListValue>false</IsListValue>
@@ -196,6 +196,11 @@
                 </SerializationItem>
                 <SerializationItem>
                     <IsListValue>false</IsListValue>
+                    <Name>Annotation</Name>
+                    <Value xsi:type="xsd:string">If the transaction item is processed without any exception, its status is updated as Successful.</Value>
+                </SerializationItem>
+                <SerializationItem>
+                    <IsListValue>false</IsListValue>
                     <Name>TextTag</Name>
                 </SerializationItem>
                 <SerializationItem>
@@ -225,11 +230,6 @@
                 <SerializationItem>
                     <IsListValue>false</IsListValue>
                     <Name>WaitAfter</Name>
-                </SerializationItem>
-                <SerializationItem>
-                    <IsListValue>false</IsListValue>
-                    <Name>Annotation</Name>
-                    <Value xsi:type="xsd:string">If the transaction item is processed without any exception, its status is updated as Successful.</Value>
                 </SerializationItem>
                 <SerializationItem>
                     <IsListValue>false</IsListValue>
@@ -377,6 +377,10 @@
                 </SerializationItem>
                 <SerializationItem>
                     <IsListValue>false</IsListValue>
+                    <Name>Annotation</Name>
+                </SerializationItem>
+                <SerializationItem>
+                    <IsListValue>false</IsListValue>
                     <Name>TextTag</Name>
                 </SerializationItem>
                 <SerializationItem>
@@ -406,10 +410,6 @@
                 <SerializationItem>
                     <IsListValue>false</IsListValue>
                     <Name>WaitAfter</Name>
-                </SerializationItem>
-                <SerializationItem>
-                    <IsListValue>false</IsListValue>
-                    <Name>Annotation</Name>
                 </SerializationItem>
                 <SerializationItem>
                     <IsListValue>false</IsListValue>
@@ -643,10 +643,6 @@
                 </SerializationItem>
                 <SerializationItem>
                     <IsListValue>false</IsListValue>
-                    <Name>Annotation</Name>
-                </SerializationItem>
-                <SerializationItem>
-                    <IsListValue>false</IsListValue>
                     <Name>Equation</Name>
                     <Value xsi:type="xsd:string">in_BusinessException != null</Value>
                 </SerializationItem>
@@ -671,6 +667,10 @@
                 <SerializationItem>
                     <IsListValue>false</IsListValue>
                     <Name>WaitAfter</Name>
+                </SerializationItem>
+                <SerializationItem>
+                    <IsListValue>false</IsListValue>
+                    <Name>Annotation</Name>
                 </SerializationItem>
                 <SerializationItem>
                     <IsListValue>false</IsListValue>
@@ -732,6 +732,12 @@
                 </SerializationItem>
                 <SerializationItem>
                     <IsListValue>false</IsListValue>
+                    <Name>Annotation</Name>
+                    <Value xsi:type="xsd:string">If a BussinessRuleException is thrown during the process, the transaction item's status is updated as Failed (Exception Type: Business).
+</Value>
+                </SerializationItem>
+                <SerializationItem>
+                    <IsListValue>false</IsListValue>
                     <Name>TextTag</Name>
                 </SerializationItem>
                 <SerializationItem>
@@ -761,12 +767,6 @@
                 <SerializationItem>
                     <IsListValue>false</IsListValue>
                     <Name>WaitAfter</Name>
-                </SerializationItem>
-                <SerializationItem>
-                    <IsListValue>false</IsListValue>
-                    <Name>Annotation</Name>
-                    <Value xsi:type="xsd:string">If a BussinessRuleException is thrown during the process, the transaction item's status is updated as Failed (Exception Type: Business).
-</Value>
                 </SerializationItem>
                 <SerializationItem>
                     <IsListValue>false</IsListValue>
@@ -914,6 +914,11 @@
                 </SerializationItem>
                 <SerializationItem>
                     <IsListValue>false</IsListValue>
+                    <Name>Annotation</Name>
+                    <Value xsi:type="xsd:string">If a system exception occurs during the process, the transaction item's status is updated as Failed (Exception Type: Application).</Value>
+                </SerializationItem>
+                <SerializationItem>
+                    <IsListValue>false</IsListValue>
                     <Name>TextTag</Name>
                 </SerializationItem>
                 <SerializationItem>
@@ -943,11 +948,6 @@
                 <SerializationItem>
                     <IsListValue>false</IsListValue>
                     <Name>WaitAfter</Name>
-                </SerializationItem>
-                <SerializationItem>
-                    <IsListValue>false</IsListValue>
-                    <Name>Annotation</Name>
-                    <Value xsi:type="xsd:string">If a system exception occurs during the process, the transaction item's status is updated as Failed (Exception Type: Application).</Value>
                 </SerializationItem>
                 <SerializationItem>
                     <IsListValue>false</IsListValue>
